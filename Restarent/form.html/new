@@ -1,0 +1,26 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticket</title>
+</head>
+<body>
+    <h2>Bus Ticket</h2>
+    <p>Welcome to our me2u2 booking.com .we had an experience of 15years to provide a best services.Kindly 
+        fill yhe below details
+    </p>
+    <h3>candidate details</h3>
+    <form>
+<label for="name">Name:</label>
+<input type="text" id="name">
+<label for="p">Number of passengers:</label>
+<input type="number"id="p">
+<p>Gender:</p>
+<label for="c1">Female</label>
+<input type="radio" id="f">
+<label for="c2">Male</label>
+<input type="radio" id="c2">
+    </form>
+</body>
+</html>

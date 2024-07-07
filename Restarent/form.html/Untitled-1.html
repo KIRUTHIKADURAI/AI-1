@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>form</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    li{
+        color:black;
+    }
+    body{
+        border:"solid blue";
+        border-radius :250px;
+        background-color:burlywood;
+    }
+</style>
+<body>
+    <h1 style="text-align:center">NARASU'S SARATHY INSTITUTE OF TECHNOLOGY</h1>
+    <p style="color:blue">Students are instructed to fill the forms in the correct manner</p>
+    <div>
+    <form>
+        <ul>
+      <li> <label>Please enter your Name:(in caps)</label><br>
+        <input  placeholder="KIRUTHIKA D"></li>
+        <li><label>Choose your Branch:</label><br>
+            <ul>
+                <li><input type="checkbox"><label>CSE</label></li>
+                <LI><input type="checkbox"><label>ECE</label></LI>
+                <li><input type="checkbox" ><label>EEE</label></li>
+            </ul>
+        <li>Enter your Degree:<br>
+        <input type="text" placeholder="BE"></li>
+        <li><label>Enter Your DATE OF BIRTH:</label><br>
+            <input type="datetime-local"></li>
+            <li>Enter the Email:<br>
+            <input placeholder="email"></li>
+         <li> <p>Please enter the year:</p><br>
+        <label for="y1">year</label> 
+            <select id="y1" name="year">
+                <option value="1st year">1st year</option>
+                <option value="2nd year">2nd year</option>
+                <option value="3rd year">3rd year</option>
+                <option value="4th year">4th year</option>
+            </select>
+        </li><br>
+        <li>
+            <fieldset style="border:inlet;width:250px; color:rgb(24, 34, 173)">
+                <legend>Login info</legend>
+                <input placeholder="email">
+                <input placeholder="password" type="password">
+            </fieldset>
+            <table border:solid>
+                <tr> <th>name</th><th>age</th></tr>
+           <tr> <td>krithi</td><td>18</td></tr>
+           <tr>
+            <td>suba</td><td>20</td>
+           </tr>
+            </table>
+        </li><br>
+            <button onclick="alert('success!!')" style="background-color:skyblue">SUBMIT</button>
+    </div>
+        </ul>
